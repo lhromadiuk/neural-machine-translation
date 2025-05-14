@@ -1,0 +1,5 @@
+#output_text:focus {
+    outline: none;
+    box-shadow: none;
+    caret-color: transparent;
+}
