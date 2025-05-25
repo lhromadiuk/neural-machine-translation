@@ -15,7 +15,3 @@ def download_wmt14():
             for example in dataset[split]:
                 f_en.write(example["translation"]["en"].strip() + "\n")
                 f_de.write(example["translation"]["de"].strip() + "\n")
-
-
-if __name__ == "__main__":
-    download_wmt14()

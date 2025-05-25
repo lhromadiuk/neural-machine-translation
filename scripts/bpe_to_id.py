@@ -33,8 +33,7 @@ def encode_file(split, lang):
     with out_path.open("w", encoding="utf-8") as f:
         json.dump(encoded, f)
 
-
-if __name__ == "__main__":
-    for split in ['train', 'validation', 'test']:
-        for lang in ['en', 'de']:
-            encode_file(split, lang)
+# if __name__ == "__main__":
+#    for split in ['validation', 'test']:
+#        for lang in ['en', 'de']:
+#            encode_file(split, lang)

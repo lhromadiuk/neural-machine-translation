@@ -20,7 +20,3 @@ def train_sentencepiece():
         character_coverage=1.0,
         model_type='bpe'
     )
-
-
-if __name__ == "__main__":
-    train_sentencepiece()

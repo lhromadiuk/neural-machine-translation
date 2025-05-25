@@ -24,7 +24,6 @@ def preprocess_file(file):
             for line in fin:
                 fout.write(preprocess_text(line) + "\n")
 
-
-if __name__ == "__main__":
-    for split in ['train', 'validation', 'test']:
-        preprocess_file(split)
+# if __name__ == "__main__":
+#    for split in ['train', 'validation', 'test']:
+# preprocess_file(split)

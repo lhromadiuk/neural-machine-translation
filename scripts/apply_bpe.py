@@ -27,7 +27,6 @@ def apply_bpe(split):
 
         print(f"BPE applied to {split}.{lang}")
 
-
-if __name__ == "__main__":
-    for split in ['train', 'validation', 'test']:
-        apply_bpe(split)
+# if __name__ == "__main__":
+#    for split in ['train', 'validation', 'test']:
+#        apply_bpe(split)
